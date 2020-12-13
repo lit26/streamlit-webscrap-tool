@@ -13,5 +13,6 @@ if url != '':
     soup = BeautifulSoup(source.text, 'lxml')
     tag = st.sidebar.text_input('Find by tag:')
     soup_list = soup.find_all(tag)
+    st.sidebar.text('Found: {} elements'.format(len(soup_list)))
     html = [i.prettify() for i in soup_list]
     st_webscrap_tool(html=html)
