@@ -1,5 +1,7 @@
 # streamlit-webscrap-tool
 
+Web scraping tool for visualizing the elements and the HTML code.
+
 ## Installation
 
 In your python virtual environment, run:
